@@ -4,7 +4,12 @@
   "description": "![cf](http://i.imgur.com/7v5ASc8.png) lab 35 - Hash Table Data Structure\r ====",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "faker": "^4.1.0",
+    "mocha": "^3.4.2"
   },
   "repository": {
     "type": "git",
